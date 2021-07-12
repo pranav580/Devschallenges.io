@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*---------- Left Container --------*/
+
+.Lcontainer{
+    width: 25%;
+    height: 100%;
+    background-color: #1E213A;
+    
+}
+input{
+    width: 8%;
+    height: 3%;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+}
+.location{
+    color: whitesmoke;
+    position: relative;
+    left: 85%;
+    top: 60px;
+}
+.main{
+    position: relative;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: center;
+}
+.backimg{
+    width: 36vw;
+    opacity: 9%;
+    position: fixed;
+}
+.wimg{
+    position: relative;
+    top: 70%;
+}
+.mainimg{
+    margin-top: 50%;
+    width: 10vw;
+}
+.sideContent{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+.sideTemp{
+    line-height: 80px;
+   font-size: 8vw;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   font-weight: 100;
+}
+.sideTag{
+    margin-top: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    font-size: 2vw;
+}
+.sideDate{
+    margin-top: 40px;
+    line-height: 30px;
+    font-size: 1vw;
+}
+.sideLoc{
+    font-size: 1vw;
+}
+
+/*---------- Right Container --------*/
+
+.Rcontainer{
+    z-index: 1;
+    width: 75%;
+    height: 100%;
+    background-color: #100E1D;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-top: 3%;
+    position: absolute;
+    right: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.BtnCelsius{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 4px;
+}
+.BtnFahrenheit{
+    background-color: grey;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 4px;
+}
+
+.topGrid{
+    display: grid;
+    width: 70%;
+    height: 28%;
+    margin: 9% 15% 0% 15%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.box{
+    width: 90%;
+    height: 90%;
+    background-color: #1E213A;
+}
+.txt{
+    color: whitesmoke;
+    margin: 2% 10% 2% 10%;
+}
+.bottomGrid{
+    display: grid;
+    width: 80%;
+    height: 45%;
+    margin: 1% 10% 0% 10%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+.BoxD{
+    margin: 20px;
+    margin-top: 0;
+    width: 90%;
+    height: 80%;
+    background-color: #1E213A;
+}
