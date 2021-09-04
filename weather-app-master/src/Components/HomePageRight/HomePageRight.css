@@ -1,0 +1,39 @@
+.TopCard{
+    text-align: center;
+    color: white;
+    height: 160px;
+    width: max-content;
+    padding: 20px;
+    margin: 2%;
+    border-radius: 0px;
+    background-color:#1E213A;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading{
+    color: whitesmoke;
+    font-family: Raleway;
+    
+}
+
+.TodayReportOneChild{
+    background-color:#1E213A;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+}
+
+.TodayReportTwoChild{
+    background-color:#1E213A;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 45%;
+}
