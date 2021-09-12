@@ -9,7 +9,7 @@
     background-color:#1E213A;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .heading{
@@ -36,4 +36,9 @@
     align-items: center;
     height: 100%;
     width: 45%;
+}
+.MinMaxTemp{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }

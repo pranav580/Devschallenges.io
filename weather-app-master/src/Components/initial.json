@@ -1,1 +1,188 @@
-{"consolidated_weather":[{"id":4586888791851008,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"ENE","created":"2021-09-04T12:58:01.952047Z","applicable_date":"2021-09-04","min_temp":12.49,"max_temp":20.995,"the_temp":18.835,"wind_speed":5.6459976055462775,"wind_direction":78.6503673817282,"air_pressure":1019.0,"humidity":77,"visibility":7.460182534001431,"predictability":71},{"id":4793551645835264,"weather_state_name":"Light Cloud","weather_state_abbr":"lc","wind_direction_compass":"E","created":"2021-09-04T12:58:01.393605Z","applicable_date":"2021-09-05","min_temp":12.945,"max_temp":23.67,"the_temp":22.61,"wind_speed":4.640214057363663,"wind_direction":89.33499428378381,"air_pressure":1021.0,"humidity":63,"visibility":10.387151535035393,"predictability":70},{"id":4607775519801344,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"ESE","created":"2021-09-04T12:58:01.656868Z","applicable_date":"2021-09-06","min_temp":14.41,"max_temp":26.555,"the_temp":25.71,"wind_speed":2.5334991674991385,"wind_direction":120.66676173884225,"air_pressure":1023.5,"humidity":55,"visibility":11.758517756303188,"predictability":71},{"id":5142848719552512,"weather_state_name":"Heavy Cloud","weather_state_abbr":"hc","wind_direction_compass":"ESE","created":"2021-09-04T12:58:01.655426Z","applicable_date":"2021-09-07","min_temp":16.325000000000003,"max_temp":26.415,"the_temp":27.22,"wind_speed":3.695411002465601,"wind_direction":108.08805533375218,"air_pressure":1022.0,"humidity":52,"visibility":14.923782609560169,"predictability":71},{"id":5087772097380352,"weather_state_name":"Light Cloud","weather_state_abbr":"lc","wind_direction_compass":"SE","created":"2021-09-04T12:58:01.858506Z","applicable_date":"2021-09-08","min_temp":16.605,"max_temp":26.065,"the_temp":26.925,"wind_speed":5.349085819409317,"wind_direction":127.66128888502863,"air_pressure":1013.5,"humidity":52,"visibility":15.575290304621014,"predictability":70},{"id":4951695948775424,"weather_state_name":"Heavy Rain","weather_state_abbr":"hr","wind_direction_compass":"SW","created":"2021-09-04T12:58:05.749446Z","applicable_date":"2021-09-09","min_temp":17.064999999999998,"max_temp":21.810000000000002,"the_temp":20.09,"wind_speed":5.260907897876402,"wind_direction":214.5,"air_pressure":1010.0,"humidity":76,"visibility":9.999726596675416,"predictability":77}],"time":"2021-09-04T15:43:18.486579+01:00","sun_rise":"2021-09-04T06:18:03.670214+01:00","sun_set":"2021-09-04T19:39:46.767519+01:00","timezone_name":"LMT","parent":{"title":"England","location_type":"Region / State / Province","woeid":24554868,"latt_long":"52.883560,-1.974060"},"sources":[{"title":"BBC","slug":"bbc","url":"http://www.bbc.co.uk/weather/","crawl_rate":360},{"title":"Forecast.io","slug":"forecast-io","url":"http://forecast.io/","crawl_rate":480},{"title":"HAMweather","slug":"hamweather","url":"http://www.hamweather.com/","crawl_rate":360},{"title":"Met Office","slug":"met-office","url":"http://www.metoffice.gov.uk/","crawl_rate":180},{"title":"OpenWeatherMap","slug":"openweathermap","url":"http://openweathermap.org/","crawl_rate":360},{"title":"Weather Underground","slug":"wunderground","url":"https://www.wunderground.com/?apiref=fc30dc3cd224e19b","crawl_rate":720},{"title":"World Weather Online","slug":"world-weather-online","url":"http://www.worldweatheronline.com/","crawl_rate":360}],"title":"London","location_type":"City","woeid":44418,"latt_long":"51.506321,-0.12714","timezone":"Europe/London"}
+{
+  "Headline": {
+    "EffectiveDate": "2021-09-12T13:00:00+05:30",
+    "EffectiveEpochDate": 1631431800,
+    "Severity": 5,
+    "Text": "Thunderstorms Sunday afternoon",
+    "Category": "thunderstorm",
+    "EndDate": "2021-09-12T19:00:00+05:30",
+    "EndEpochDate": 1631453400,
+    "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?lang=en-us",
+    "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2021-09-12T07:00:00+05:30",
+      "EpochDate": 1631410200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 76.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 88.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 17,
+        "IconPhrase": "Partly sunny w/ t-storms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 15,
+        "IconPhrase": "Thunderstorms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=1&lang=en-us"
+    },
+    {
+      "Date": "2021-09-13T07:00:00+05:30",
+      "EpochDate": 1631496600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 77.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 87.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 15,
+        "IconPhrase": "Thunderstorms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=2&lang=en-us"
+    },
+    {
+      "Date": "2021-09-14T07:00:00+05:30",
+      "EpochDate": 1631583000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 75.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 87.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 15,
+        "IconPhrase": "Thunderstorms",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Heavy"
+      },
+      "Night": {
+        "Icon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=3&lang=en-us"
+    },
+    {
+      "Date": "2021-09-15T07:00:00+05:30",
+      "EpochDate": 1631669400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 76.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 81.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Moderate"
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=4&lang=en-us"
+    },
+    {
+      "Date": "2021-09-16T07:00:00+05:30",
+      "EpochDate": 1631755800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 74.0,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 85.0,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": [
+        "AccuWeather"
+      ],
+      "MobileLink": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/in/bhopal/2974356/daily-weather-forecast/2974356?day=5&lang=en-us"
+    }
+  ]
+}

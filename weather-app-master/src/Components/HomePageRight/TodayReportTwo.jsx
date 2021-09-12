@@ -1,8 +1,17 @@
-const TodayReportTwo=()=>{
+const TodayReportAir=({air})=>{
     return(
         <div className="TodayReportTwoChild">
-            <h2>Wind status</h2>
+            <h4>Precipitaion</h4>
+            <h2>{air} mm</h2>
         </div>
     )
 }
-export default TodayReportTwo;
+const TodayReportVisibility = ({visibility})=>{
+    return(
+        <div className="TodayReportTwoChild">
+            <h4>Visibility</h4>
+            <h2>{visibility} km</h2>
+        </div>
+    )
+}
+export {TodayReportAir , TodayReportVisibility};

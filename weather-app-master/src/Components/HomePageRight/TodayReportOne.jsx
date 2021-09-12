@@ -1,8 +1,18 @@
-const TodayReportOne=()=>{
+const TodayReportWind=({wind})=>{
     return(
         <div className="TodayReportOneChild">
-            <h2>Wind status</h2>
+            <h4>Wind Status</h4>
+            <h2>{wind} mph</h2>
         </div>
     )
 }
-export default TodayReportOne;
+
+const TodayReportHumidity =({humidity})=>{
+    return(
+        <div className="TodayReportOneChild">
+            <h4>Humidity</h4>
+            <h2>{humidity}%</h2>
+        </div>
+    )
+}
+export  {TodayReportWind , TodayReportHumidity};
