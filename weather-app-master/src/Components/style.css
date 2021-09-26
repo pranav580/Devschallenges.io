@@ -30,17 +30,33 @@
   margin: auto;
   width: 53vw;
   height: 87vh;
-  /* display: grid;
-  grid-template-rows: 1fr 4fr 0.5fr 4fr 3fr 1fr; */
 }
 
 /*      HomePage Left        */
-.HomeSearch{border: 1px solid white;}
-.LocationIMG{border: 1px solid white;}
-.Temprature{border: 1px solid white;}
-.WeatherDetails{border: 1px solid white;}
-.Date{border: 1px solid white;}
-.Location{border: 1px solid white;}
+.locimg{
+  position: absolute;
+  bottom: 60%;
+  left: 8%;
+  width: 15%;
+}
+.HomeSearch{
+
+}
+
+
+
+.Temprature{
+  
+}
+.WeatherDetails{
+  
+}
+.Date{
+  
+}
+.Location{
+  
+}
 
 /*      HomePage Right        */
 /* .ButtonConvertor{border: 1px solid white;} */

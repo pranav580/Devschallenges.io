@@ -7,12 +7,17 @@ import {TodayReportWind,TodayReportHumidity} from "./HomePageRight/TodayReportOn
 import {TodayReportAir , TodayReportVisibility} from "./HomePageRight/TodayReportTwo";
 import initial from "./initial.json";
 import initial1 from "./initial1.json";
+import LocationImg from "./HomePageLeft/LocationImg";
 
-const HomePageLeft =()=>{
+
+const HomePageLeft =({LocationData , LocationData1})=>{
     return(
         <div className="HomePageLeft">
             <div className="HomeSearch"></div>
-            <div className="LocationIMG"></div>
+            <div className="LocationIMG">
+               <LocationImg/>
+               <img className="locimg" src={LocationData1.current.condition.icon} alt="img" srcset="" />
+            </div>
             <div className="Temprature"></div>
             <div className="WeatherDetails"></div>
             <div className="Date"></div>
@@ -109,11 +114,12 @@ const Background= ()=>{
         })
         .catch(error => console.log('Authorization failed failed for 2st API: ' + error.message));
     },[locationID]);
+
     return(
         <div className="Background">
 
             <div className="Left">
-                <HomePageLeft/>
+                <HomePageLeft LocationData={LocationData} LocationData1={LocationData1}/>
             </div>
             <div className="Right">
                 <HomePageRight LocationData={LocationData} LocationData1={LocationData1}/>
