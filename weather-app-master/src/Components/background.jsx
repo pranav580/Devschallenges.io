@@ -113,7 +113,7 @@ const Background= ()=>{
             setLoactionData(Data);
         })
         .catch(error => console.log('Authorization failed failed for 2st API: ' + error.message));
-    },[locationID]);
+    },[LocationName]);
 
     return(
         <div className="Background">
